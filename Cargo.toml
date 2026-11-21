@@ -1,0 +1,17 @@
+[package]
+name = "shd-rs"
+version = "0.1.0"
+edition = "2024"
+description = "Reader and writer for Warcraft III shadow maps (war3map.shd)"
+license = "CC0-1.0"
+
+[[bin]]
+name = "shd-rs"
+path = "src/main.rs"
+
+[lib]
+name = "shd_rs"
+path = "src/lib.rs"
+
+[dependencies]
+parser-rs = { path = "../parser-rs" }
